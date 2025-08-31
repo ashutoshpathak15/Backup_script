@@ -5,4 +5,9 @@ Backup script to automate day-to-day tasks. This repository is a task from KodeK
 3) The script doesn't ask password while copying to the backup server.
 
 
+## Create a script on the app server
+script.sh script used to create a zip file and copy it to another server.
 
+## Authenticate without password
+Run the command on app server ssh-keygen -t rsa
+Then run ssh-copy-id user_name@ip_address
